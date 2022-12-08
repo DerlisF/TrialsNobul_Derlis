@@ -1,0 +1,28 @@
+#header-img {
+    width: 30vw;
+    }
+    
+    .nav-link {
+    list-style-type: none;
+    text-decoration: none;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        min-height: 75px;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Wide Latin', sans-serif;
+    }
