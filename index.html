@@ -2,57 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Landing Product</title>
+    <title>CSGO Local Servers</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script id="script" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <header id="header">
-      <img id= "header-img" src="logo.png" alt="This is our logo">
-      <nav id="nav-bar">
-        <ul>
+    <header class="header">
+      
+      <nav>
+        <img id="header-img" src="logo.png">
+        <ul class="navbar">
           <li class="nav-link"><a href="#form">Submission</a></li>
-          <li class="nav-link">How It Works</li>
-          <li class="nav-link">Pricing</li>
+          <li class="nav-link"><a href="#video">Gallery</a></li>
+          <li class="nav-link"><a href="#contact">Pricing</a></li>
         </ul>
         
       </nav>
     </header>
-      <h3>
-        Landing a Product 
-      </h3>
+      <div class=container>
+        <div class="name"><h3>
+          <b>CSGO</b> Local Servers 
+        </h3></div>
 
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-          name="email"
-          id="email"
-          type="email"
-          placeholder="Enter your email address"
-          required
-        />
-        <input id="submit" type="submit" value="Get Started" class="btn" />
+     <form class="form" action="https://www.freecodecamp.com/email-submit">
+        
+        <input name="fname" id="fname" type="fname"
+        placeholder="   enter your first name" required/>
+        <input name="lname" id="lname" type="lname"
+        placeholder="   enter your last name" required/>
+        
+        <input name="email" id="email" type="email" placeholder="  enter your email address" required />
+
+        <input id="submit" type="submit" value="Get Started" class="btn"/>
       </form>
 
+      <div class="video">
+        
+       <ul>
+        <li><iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/lBb7tv6CEMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
 
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/edYCtaNueQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      </ul>
 
-      <iframe id="video" width="560" height="300" src="https://www.youtube.com/embed/lBb7tv6CEMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    
-      <!--
+      </div>
+    </div>
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+  <script  src="js/index.js"></script>
 
   </body>
 </html>
